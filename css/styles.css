@@ -1,3 +1,73 @@
 body {
-    background: #2A2A2A;
+    background: #fff;
+    font-size: 16px;
+}
+/*
+HEADER SECTION
+*/
+
+.logonav {
+    background: #69c0af;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    background-image: url(http://placekitten.com/g/50/50);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+    height: 96px;
+
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+}
+
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+
+#login-btn {
+    padding: 10px 15px;
+}
+
+#register-btn {
+    padding: 10px 20% 10px 15px;
+}
+
+/*
+DASHBOARD SECTION
+*/
+.dash-image {
+    width: 100%;
+    height: 50%;
+    background-image: url(http://placehold.it/350x150);
+    background-size: cover;
+    background-position: top center;
+}
+
+.dash-info{
+    background: #ffd66b;
+    text-align: center;
+    padding: 24px 20px;
+}
+
+.dash {
+    position: relative;
+    height: 450px;
+    max-width: 100%;
 }
